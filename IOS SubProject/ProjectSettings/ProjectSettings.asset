@@ -434,16 +434,22 @@ PlayerSettings:
   XboxOne::enus: 1
   stringPropertyNames:
   - Build_ServiceEnabled::Build_ServiceEnabled
+  - Collab_ServiceEnabled::Collab_ServiceEnabled
+  - ErrorHub_ServiceEnabled::ErrorHub_ServiceEnabled
+  - Hub_ServiceEnabled::Hub_ServiceEnabled
   - UNet_ServiceEnabled::UNet_ServiceEnabled
   - WebGL::emscriptenArgs
   - WebGL::template
   - additionalIl2CppArgs::additionalIl2CppArgs
   Build_ServiceEnabled::Build_ServiceEnabled: True
+  Collab_ServiceEnabled::Collab_ServiceEnabled: False
+  ErrorHub_ServiceEnabled::ErrorHub_ServiceEnabled: False
+  Hub_ServiceEnabled::Hub_ServiceEnabled: False
   UNet_ServiceEnabled::UNet_ServiceEnabled: True
   WebGL::emscriptenArgs: 
   WebGL::template: APPLICATION:Default
   additionalIl2CppArgs::additionalIl2CppArgs: 
-  cloudProjectId: f94bc2a5-7492-4b40-b394-50cb9f12e4c2
-  projectName: IOS SubProjcet
+  cloudProjectId: 007125fc-0b40-4d16-b23c-08c1af0fdb85
+  projectName: Different Source for Different Targets
   organizationId: timt-unity3d
   cloudEnabled: 0
